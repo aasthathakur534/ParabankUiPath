@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="qIaaLZbNDk2vhTHTEIo47g" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="parabank.parasoft.com/parabank/register.htm" CVScreenId="575327af-8776-49dd-a581-7bf8efd9e246" DesignTimeRectangle="663, 329, 206, 18" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl id='customer.address.street' type='text' name='customer.address.street' /&gt;" Guid="ffec779d-fbc2-4f22-bd0f-e8298f774f7e" ScopeSelectorArgument="&lt;html app='chrome.exe' title='ParaBank | Register for Free Online Account Access' /&gt;" SearchSteps="FuzzySelector" Version="V6" WaitForReadyArgument="None">
+      <imageRef attrName="InformativeScreenshot" originalValue="d4f05e63bd356ca22f171c095a840119.jpg" xmlns="">0iLqP_S_9y0maM5-JLSJmMg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

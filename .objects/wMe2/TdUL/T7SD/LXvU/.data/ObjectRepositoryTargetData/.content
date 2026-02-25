@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="vxVEIKfJgUS6F68hL9w7Ow" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="parabank.parasoft.com/parabank/register.htm" CVScreenId="5e6b1b5d-f793-46b1-9cb3-067f6f536cc1" DesignTimeRectangle="532, 460, 502, 25" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='H1' aaname='Welcome PeterGriffin' innertext='Welcome PeterGriffin' /&gt;" Guid="00e9338e-2306-47e7-9a83-3045b06b4683" ScopeSelectorArgument="&lt;html app='chrome.exe' title='ParaBank | Customer Created' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="None">
+      <imageRef attrName="InformativeScreenshot" originalValue="b0718ed33e4f0538215ad30e28370bc4.jpg" xmlns="">04VhCcAB7Yk6dw6RvHcRH1Q</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

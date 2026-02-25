@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="WdVk1DoUgkeDrIuUBXuVRA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="parabank.parasoft.com/parabank/register.htm" CVScreenId="89bfa868-e45b-45c7-8945-3d0410ca62ef" DesignTimeRectangle="663, 495, 206, 18" ElementType="InputBoxPassword" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl id='customer.password' type='password' rowName='Password:' /&gt;" Guid="83a51439-d4a7-4c57-a99e-14e0b2f7f766" ScopeSelectorArgument="&lt;html app='chrome.exe' title='ParaBank | Register for Free Online Account Access' /&gt;" SearchSteps="FuzzySelector" Version="V6" WaitForReadyArgument="None">
+      <imageRef attrName="InformativeScreenshot" originalValue="eff488c698844c02f55b58b6d04867db.jpg" xmlns="">08rwHwa8OeUm7rYPf4AMdRQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

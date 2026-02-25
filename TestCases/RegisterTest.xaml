@@ -1,4 +1,4 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="RegisterTests" sap2010:ExpressionActivityEditor.ExpressionActivityEditor="C#" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="RegisterTests" sap2010:ExpressionActivityEditor.ExpressionActivityEditor="C#" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Drawing;assembly=System.Drawing.Common" xmlns:sd1="clr-namespace:System.Drawing;assembly=System.Drawing.Primitives" xmlns:sd2="clr-namespace:System.Data;assembly=System.Data.Common" xmlns:ss="clr-namespace:System.Security;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:upr="clr-namespace:UiPath.Platform.ResourceHandling;assembly=UiPath.Platform" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
       <x:String>System.Activities</x:String>
@@ -24,6 +24,28 @@
       <x:String>System.Windows.Markup</x:String>
       <x:String>GlobalVariablesNamespace</x:String>
       <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Platform.SyncObjects</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>System.Linq.Expressions</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>System.Xml.Serialization</x:String>
+      <x:String>UiPath.Excel</x:String>
+      <x:String>UiPath.Platform.ResourceHandling</x:String>
+      <x:String>UiPath.Excel.Activities</x:String>
+      <x:String>UiPath.Platform</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>UiPath.DataTableUtilities</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
     </sco:Collection>
   </TextExpression.NamespacesForImplementation>
   <TextExpression.ReferencesForImplementation>
@@ -48,13 +70,601 @@
       <AssemblyReference>System.Xml.Linq</AssemblyReference>
       <AssemblyReference>UiPath.System.Activities</AssemblyReference>
       <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>System.Private.Xml</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+      <AssemblyReference>UiPath.Excel</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>NPOI.Core</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
+      <AssemblyReference>UiPath.CodedWorkflows</AssemblyReference>
+      <AssemblyReference>System.IO.FileSystem.Watcher</AssemblyReference>
+      <AssemblyReference>System.IO.Packaging</AssemblyReference>
+      <AssemblyReference>System.IO.FileSystem.AccessControl</AssemblyReference>
+      <AssemblyReference>System.IO.FileSystem.DriveInfo</AssemblyReference>
+      <AssemblyReference>System.Data.SqlClient</AssemblyReference>
+      <AssemblyReference>System.Linq.Async</AssemblyReference>
+      <AssemblyReference>UiPath.Workflow</AssemblyReference>
+      <AssemblyReference>ParabankProject.Core</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="RegisterTests" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="RegisterTests" sap:VirtualizedContainerService.HintSize="770,8544" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="x:String" Name="username">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:String x:Key="SourceIdRef">GetRobotCredential_1</x:String>
+            <x:String x:Key="SourcePropertyName">Username</x:String>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </Variable>
+      <Variable x:TypeArguments="ss:SecureString" Name="password">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:String x:Key="SourceIdRef">GetRobotCredential_1</x:String>
+            <x:String x:Key="SourcePropertyName">Password</x:String>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </Variable>
+    </Sequence.Variables>
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Chrome ParaBank  Welcome  Online Banking" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="514,8521" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="80a56d5a-6ce2-4252-b7f1-f6fbd02ff3f7" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="512,8327" sap2010:WorkflowViewState.IdRef="Sequence_2">
+            <Sequence.Variables>
+              <Variable x:TypeArguments="sd2:DataTable" Name="Register_Excel_Data" />
+              <Variable x:TypeArguments="x:String" Name="First_Name" />
+              <Variable x:TypeArguments="x:String" Name="Last_Name" />
+              <Variable x:TypeArguments="x:String" Name="Address" />
+              <Variable x:TypeArguments="x:String" Name="City" />
+              <Variable x:TypeArguments="x:String" Name="State" />
+              <Variable x:TypeArguments="x:String" Name="Zip" />
+              <Variable x:TypeArguments="x:String" Name="Phone" />
+              <Variable x:TypeArguments="x:String" Name="SSN" />
+            </Sequence.Variables>
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Register'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="478,194" sap2010:WorkflowViewState.IdRef="NClick_1" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="80a56d5a-6ce2-4252-b7f1-f6fbd02ff3f7" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="parabank.parasoft.com/parabank/index.htm" CVScreenId="a7b2578f-e5de-476b-8779-61455f9955d7" ContentHash="-rHYY12H50i2-Fovhbp_aA" DesignTimeRectangle="337, 613, 48, 15" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='Register' parentid='loginPanel' tag='A' /&gt;" Guid="a0a0a1b2-e8a5-43af-8c2a-7a262d9013e2" InformativeScreenshot="083e392ea8c6a59c9dfdbb5cbf235e20.jpg" Reference="DkszPOmxX0accs3O-Lc4DQ/r9khypZjoEK1A01BhA1e_g" ScopeSelectorArgument="&lt;html app='chrome.exe' title='ParaBank | Welcome | Online Banking' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="478,175" sap2010:WorkflowViewState.IdRef="LogMessage_7" Level="Info">
+              <ui:LogMessage.Message>
+                <InArgument x:TypeArguments="x:Object">
+                  <CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_41">"Register button clicked"</CSharpValue>
+                </InArgument>
+              </ui:LogMessage.Message>
+            </ui:LogMessage>
+            <uix:NCheckState DisplayName="Check App State 'Register'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="478,797" sap2010:WorkflowViewState.IdRef="NCheckState_1" ScopeIdentifier="80a56d5a-6ce2-4252-b7f1-f6fbd02ff3f7" Version="V5">
+              <uix:NCheckState.IfExists>
+                <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="450,226" sap2010:WorkflowViewState.IdRef="Sequence_3">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,166" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info">
+                    <ui:LogMessage.Message>
+                      <InArgument x:TypeArguments="x:Object">
+                        <CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_1">"Homepage opened"</CSharpValue>
+                      </InArgument>
+                    </ui:LogMessage.Message>
+                  </ui:LogMessage>
+                </Sequence>
+              </uix:NCheckState.IfExists>
+              <uix:NCheckState.IfNotExists>
+                <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="450,226" sap2010:WorkflowViewState.IdRef="Sequence_4">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,166" sap2010:WorkflowViewState.IdRef="LogMessage_2" Level="Info">
+                    <ui:LogMessage.Message>
+                      <InArgument x:TypeArguments="x:Object">
+                        <CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_2">"Homepage didn't open"</CSharpValue>
+                      </InArgument>
+                    </ui:LogMessage.Message>
+                  </ui:LogMessage>
+                </Sequence>
+              </uix:NCheckState.IfNotExists>
+              <uix:NCheckState.Target>
+                <uix:TargetAnchorable BrowserURL="parabank.parasoft.com/parabank/index.htm" CVScreenId="a7b2578f-e5de-476b-8779-61455f9955d7" ContentHash="-rHYY12H50i2-Fovhbp_aA" DesignTimeRectangle="337, 613, 48, 15" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='Register' parentid='loginPanel' tag='A' /&gt;" Guid="a0a0a1b2-e8a5-43af-8c2a-7a262d9013e2" InformativeScreenshot="083e392ea8c6a59c9dfdbb5cbf235e20.jpg" Reference="DkszPOmxX0accs3O-Lc4DQ/r9khypZjoEK1A01BhA1e_g" ScopeSelectorArgument="&lt;html app='chrome.exe' title='ParaBank | Welcome | Online Banking' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
+              </uix:NCheckState.Target>
+            </uix:NCheckState>
+            <ui:ReadRange AddHeaders="True" DisplayName="Read Range Workbook" sap:VirtualizedContainerService.HintSize="478,227" sap2010:WorkflowViewState.IdRef="ReadRange_1" SheetName="Sheet1">
+              <ui:ReadRange.DataTable>
+                <OutArgument x:TypeArguments="sd2:DataTable">
+                  <CSharpReference x:TypeArguments="sd2:DataTable" sap2010:WorkflowViewState.IdRef="CSharpReference`1_1">Register_Excel_Data</CSharpReference>
+                </OutArgument>
+              </ui:ReadRange.DataTable>
+              <ui:ReadRange.Range>
+                <InArgument x:TypeArguments="x:String">
+                  <Literal x:TypeArguments="x:String" Value="" />
+                </InArgument>
+              </ui:ReadRange.Range>
+              <ui:ReadRange.WorkbookPathResource>
+                <InArgument x:TypeArguments="upr:IResource">
+                  <CSharpValue x:TypeArguments="upr:IResource" sap2010:WorkflowViewState.IdRef="CSharpValue`1_8">LocalResource.FromPath(System.IO.Path.Combine(Environment.CurrentDirectory,"TestData","Register_Data.xlsx"))</CSharpValue>
+                </InArgument>
+              </ui:ReadRange.WorkbookPathResource>
+            </ui:ReadRange>
+            <ui:MultipleAssign DisplayName="Multiple Assign" sap:VirtualizedContainerService.HintSize="478,366" sap2010:WorkflowViewState.IdRef="MultipleAssign_1">
+              <ui:MultipleAssign.AssignOperations>
+                <scg:List x:TypeArguments="ui:AssignOperation" Capacity="8">
+                  <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_1">
+                    <ui:AssignOperation.To>
+                      <OutArgument x:TypeArguments="x:String">
+                        <CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_3">First_Name</CSharpReference>
+                      </OutArgument>
+                    </ui:AssignOperation.To>
+                    <ui:AssignOperation.Value>
+                      <InArgument x:TypeArguments="x:String">
+                        <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_25">Register_Excel_Data.Rows[0]["Detail"].ToString()</CSharpValue>
+                      </InArgument>
+                    </ui:AssignOperation.Value>
+                  </ui:AssignOperation>
+                  <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_2">
+                    <ui:AssignOperation.To>
+                      <OutArgument x:TypeArguments="x:String">
+                        <CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_4">Last_Name</CSharpReference>
+                      </OutArgument>
+                    </ui:AssignOperation.To>
+                    <ui:AssignOperation.Value>
+                      <InArgument x:TypeArguments="x:String">
+                        <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_26">Register_Excel_Data.Rows[1]["Detail"].ToString()</CSharpValue>
+                      </InArgument>
+                    </ui:AssignOperation.Value>
+                  </ui:AssignOperation>
+                  <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_3">
+                    <ui:AssignOperation.To>
+                      <OutArgument x:TypeArguments="x:String">
+                        <CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_5">Address</CSharpReference>
+                      </OutArgument>
+                    </ui:AssignOperation.To>
+                    <ui:AssignOperation.Value>
+                      <InArgument x:TypeArguments="x:String">
+                        <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_27">Register_Excel_Data.Rows[2]["Detail"].ToString()</CSharpValue>
+                      </InArgument>
+                    </ui:AssignOperation.Value>
+                  </ui:AssignOperation>
+                  <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_4">
+                    <ui:AssignOperation.To>
+                      <OutArgument x:TypeArguments="x:String">
+                        <CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_6">City</CSharpReference>
+                      </OutArgument>
+                    </ui:AssignOperation.To>
+                    <ui:AssignOperation.Value>
+                      <InArgument x:TypeArguments="x:String">
+                        <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_28">Register_Excel_Data.Rows[3]["Detail"].ToString()</CSharpValue>
+                      </InArgument>
+                    </ui:AssignOperation.Value>
+                  </ui:AssignOperation>
+                  <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_5">
+                    <ui:AssignOperation.To>
+                      <OutArgument x:TypeArguments="x:String">
+                        <CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_7">State</CSharpReference>
+                      </OutArgument>
+                    </ui:AssignOperation.To>
+                    <ui:AssignOperation.Value>
+                      <InArgument x:TypeArguments="x:String">
+                        <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_29">Register_Excel_Data.Rows[4]["Detail"].ToString()</CSharpValue>
+                      </InArgument>
+                    </ui:AssignOperation.Value>
+                  </ui:AssignOperation>
+                  <ui:AssignOperation sap:VirtualizedContainerService.HintSize="334,37" sap2010:WorkflowViewState.IdRef="AssignOperation_6">
+                    <ui:AssignOperation.To>
+                      <OutArgument x:TypeArguments="x:String">
+                        <CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_8">Zip</CSharpReference>
+                      </OutArgument>
+                    </ui:AssignOperation.To>
+                    <ui:AssignOperation.Value>
+                      <InArgument x:TypeArguments="x:String">
+                        <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_30">Register_Excel_Data.Rows[5]["Detail"].ToString()</CSharpValue>
+                      </InArgument>
+                    </ui:AssignOperation.Value>
+                  </ui:AssignOperation>
+                  <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_7">
+                    <ui:AssignOperation.To>
+                      <OutArgument x:TypeArguments="x:String">
+                        <CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_9">Phone</CSharpReference>
+                      </OutArgument>
+                    </ui:AssignOperation.To>
+                    <ui:AssignOperation.Value>
+                      <InArgument x:TypeArguments="x:String">
+                        <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_31">Register_Excel_Data.Rows[6]["Detail"].ToString()</CSharpValue>
+                      </InArgument>
+                    </ui:AssignOperation.Value>
+                  </ui:AssignOperation>
+                  <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_8">
+                    <ui:AssignOperation.To>
+                      <OutArgument x:TypeArguments="x:String">
+                        <CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_10">SSN</CSharpReference>
+                      </OutArgument>
+                    </ui:AssignOperation.To>
+                    <ui:AssignOperation.Value>
+                      <InArgument x:TypeArguments="x:String">
+                        <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_32">Register_Excel_Data.Rows[7]["Detail"].ToString()</CSharpValue>
+                      </InArgument>
+                    </ui:AssignOperation.Value>
+                  </ui:AssignOperation>
+                </scg:List>
+              </ui:MultipleAssign.AssignOperations>
+            </ui:MultipleAssign>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DelayBefore="2" DisplayName="Type Into 'INPUT customer.firstName(1)'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="478,246" sap2010:WorkflowViewState.IdRef="NTypeInto_2" InteractionMode="SameAsCard" ScopeIdentifier="80a56d5a-6ce2-4252-b7f1-f6fbd02ff3f7" Version="V5">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable BrowserURL="parabank.parasoft.com/parabank/register.htm" CVScreenId="575327af-8776-49dd-a581-7bf8efd9e246" ContentHash="0D3t4EAtsEmLy5D4zfNFLw" DesignTimeRectangle="663, 333, 206, 18" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl id='customer.firstName' type='text' rowName='First Name:' /&gt;" Guid="5298679c-6a64-4eca-88aa-87ab25a690eb" InformativeScreenshot="2b802b3c09b1f8b0d95f70f3841e5ebc.jpg" Reference="DkszPOmxX0accs3O-Lc4DQ/ZKL8VvcTXU2Js1wO1WnoFw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='ParaBank | Register for Free Online Account Access' /&gt;" SearchSteps="FuzzySelector" Version="V6" WaitForReadyArgument="None" />
+              </uix:NTypeInto.Target>
+              <uix:NTypeInto.Text>
+                <InArgument x:TypeArguments="x:String">
+                  <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_34">First_Name</CSharpValue>
+                </InArgument>
+              </uix:NTypeInto.Text>
+            </uix:NTypeInto>
+            <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="478,175" sap2010:WorkflowViewState.IdRef="LogMessage_4" Level="Info">
+              <ui:LogMessage.Message>
+                <InArgument x:TypeArguments="x:Object">
+                  <CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_42">"First name added"</CSharpValue>
+                </InArgument>
+              </ui:LogMessage.Message>
+            </ui:LogMessage>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'INPUT customer.lastName'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="478,246" sap2010:WorkflowViewState.IdRef="NTypeInto_3" InteractionMode="SameAsCard" ScopeIdentifier="80a56d5a-6ce2-4252-b7f1-f6fbd02ff3f7" Version="V5">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable BrowserURL="parabank.parasoft.com/parabank/register.htm" CVScreenId="575327af-8776-49dd-a581-7bf8efd9e246" ContentHash="Xlx8N5nVjUWbtsM-dvs2MA" DesignTimeRectangle="663, 305, 206, 18" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl id='customer.lastName' type='text' tag='INPUT' class='input' matching:class='fuzzy' fuzzylevel:class='0.0' /&gt;" Guid="94d0dfb3-e29c-4438-8030-fd395b5eda12" InformativeScreenshot="3cc99754f69a07daaea640fafe31d66b.jpg" Reference="DkszPOmxX0accs3O-Lc4DQ/UbCKwJa15UucvnEPyumrWw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='ParaBank | Register for Free Online Account Access' /&gt;" SearchSteps="FuzzySelector" Version="V6" WaitForReadyArgument="None" />
+              </uix:NTypeInto.Target>
+              <uix:NTypeInto.Text>
+                <InArgument x:TypeArguments="x:String">
+                  <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_18">Last_Name</CSharpValue>
+                </InArgument>
+              </uix:NTypeInto.Text>
+            </uix:NTypeInto>
+            <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="478,175" sap2010:WorkflowViewState.IdRef="LogMessage_8" Level="Info">
+              <ui:LogMessage.Message>
+                <InArgument x:TypeArguments="x:Object">
+                  <CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_43">"Last name added"</CSharpValue>
+                </InArgument>
+              </ui:LogMessage.Message>
+            </ui:LogMessage>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'TD'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="478,246" sap2010:WorkflowViewState.IdRef="NTypeInto_4" InteractionMode="DebuggerApi" ScopeIdentifier="80a56d5a-6ce2-4252-b7f1-f6fbd02ff3f7" Version="V5">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable BrowserURL="parabank.parasoft.com/parabank/register.htm" CVScreenId="575327af-8776-49dd-a581-7bf8efd9e246" ContentHash="ZDuLYM3sK0C0kZazj983PA" DesignTimeRectangle="662, 327, 208, 21" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl rowName='Address:' idx='3' /&gt;" Guid="19e0235c-18c4-49e2-b16d-1cce89d2fb1b" InformativeScreenshot="6d2bc5d5f6464a17f027b1532ef850ef.jpg" Reference="DkszPOmxX0accs3O-Lc4DQ/l9TeArOcWkq4s6OCMN_B-g" ScopeSelectorArgument="&lt;html app='chrome.exe' title='ParaBank | Register for Free Online Account Access' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="None" />
+              </uix:NTypeInto.Target>
+              <uix:NTypeInto.Text>
+                <InArgument x:TypeArguments="x:String">
+                  <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_19">Address</CSharpValue>
+                </InArgument>
+              </uix:NTypeInto.Text>
+            </uix:NTypeInto>
+            <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="478,175" sap2010:WorkflowViewState.IdRef="LogMessage_9" Level="Info">
+              <ui:LogMessage.Message>
+                <InArgument x:TypeArguments="x:Object">
+                  <CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_44">"Address added"</CSharpValue>
+                </InArgument>
+              </ui:LogMessage.Message>
+            </ui:LogMessage>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'TD(1)'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="478,246" sap2010:WorkflowViewState.IdRef="NTypeInto_5" InteractionMode="DebuggerApi" ScopeIdentifier="80a56d5a-6ce2-4252-b7f1-f6fbd02ff3f7" Version="V5">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable BrowserURL="parabank.parasoft.com/parabank/register.htm" CVScreenId="575327af-8776-49dd-a581-7bf8efd9e246" ContentHash="XbM-y9lzj0ymIOioT8XJQA" DesignTimeRectangle="662, 351, 208, 21" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl tableCol='2' tableRow='4' tag='TD' /&gt;" Guid="6c697464-9158-402a-9fd6-ba3dc866f248" InformativeScreenshot="46c73971754931bbd3ebb494c2738e4d.jpg" Reference="DkszPOmxX0accs3O-Lc4DQ/UpchVabK8kyWuuTMAOk8PA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='ParaBank | Register for Free Online Account Access' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="None" />
+              </uix:NTypeInto.Target>
+              <uix:NTypeInto.Text>
+                <InArgument x:TypeArguments="x:String">
+                  <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_20">City</CSharpValue>
+                </InArgument>
+              </uix:NTypeInto.Text>
+            </uix:NTypeInto>
+            <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="478,175" sap2010:WorkflowViewState.IdRef="LogMessage_10" Level="Info">
+              <ui:LogMessage.Message>
+                <InArgument x:TypeArguments="x:Object">
+                  <CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_45">"City name added"</CSharpValue>
+                </InArgument>
+              </ui:LogMessage.Message>
+            </ui:LogMessage>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'INPUT customer.address.…'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="478,246" sap2010:WorkflowViewState.IdRef="NTypeInto_6" InteractionMode="DebuggerApi" ScopeIdentifier="80a56d5a-6ce2-4252-b7f1-f6fbd02ff3f7" Version="V5">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable BrowserURL="parabank.parasoft.com/parabank/register.htm" CVScreenId="575327af-8776-49dd-a581-7bf8efd9e246" ContentHash="QTxnhUd_z0mMpSPE6UqcrQ" CvElementArea="662, 376, 208, 20" CvType="InputBox" DesignTimeRectangle="663, 377, 206, 18" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl id='customer.address.state' type='text' class='input' matching:class='fuzzy' fuzzylevel:class='0.0' /&gt;" Guid="325f3d45-a0e2-492f-8577-d01de9dc5a20" InformativeScreenshot="63e033fc707d92caf4cc9243b0cdad85.jpg" Reference="DkszPOmxX0accs3O-Lc4DQ/McoM2bsitEW9eCnxXfttSg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='ParaBank | Register for Free Online Account Access' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="None" />
+              </uix:NTypeInto.Target>
+              <uix:NTypeInto.Text>
+                <InArgument x:TypeArguments="x:String">
+                  <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_21">State</CSharpValue>
+                </InArgument>
+              </uix:NTypeInto.Text>
+            </uix:NTypeInto>
+            <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="478,175" sap2010:WorkflowViewState.IdRef="LogMessage_11" Level="Info">
+              <ui:LogMessage.Message>
+                <InArgument x:TypeArguments="x:Object">
+                  <CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_46">"State added"</CSharpValue>
+                </InArgument>
+              </ui:LogMessage.Message>
+            </ui:LogMessage>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'Zip Code'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="478,246" sap2010:WorkflowViewState.IdRef="NTypeInto_7" InteractionMode="SameAsCard" ScopeIdentifier="80a56d5a-6ce2-4252-b7f1-f6fbd02ff3f7" Version="V5">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable BrowserURL="parabank.parasoft.com/parabank/register.htm" CVScreenId="575327af-8776-49dd-a581-7bf8efd9e246" ContentHash="2N0vTOzefE6P9t8q_1rcvA" DesignTimeRectangle="663, 401, 206, 18" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl id='customer.address.zipCode' type='text' tag='INPUT' /&gt;" Guid="245ec8bd-2a3e-49f4-8060-cb43a14bc331" InformativeScreenshot="19fecb03bbe8eb02667c6a434957dcd3.jpg" Reference="DkszPOmxX0accs3O-Lc4DQ/oi9kLWtI8UaVgR9tHHlveg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='ParaBank | Register for Free Online Account Access' /&gt;" SearchSteps="FuzzySelector" Version="V6" WaitForReadyArgument="None">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target CVScreenId="575327af-8776-49dd-a581-7bf8efd9e246" CvTextArea="597, 402, 61, 16" CvTextArgument="Zip Code:" CvType="Text" DesignTimeRectangle="598, 402, 60, 15" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl type='' tag='B' class='' aaname='Zip Code:' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Zip Code:' /&gt;" Guid="f7267906-6f00-4ab3-b4e9-71ee40ae50d5" SearchSteps="FuzzySelector, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NTypeInto.Target>
+              <uix:NTypeInto.Text>
+                <InArgument x:TypeArguments="x:String">
+                  <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_22">Zip</CSharpValue>
+                </InArgument>
+              </uix:NTypeInto.Text>
+            </uix:NTypeInto>
+            <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="478,175" sap2010:WorkflowViewState.IdRef="LogMessage_12" Level="Info">
+              <ui:LogMessage.Message>
+                <InArgument x:TypeArguments="x:Object">
+                  <CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_47">"Zip code added"</CSharpValue>
+                </InArgument>
+              </ui:LogMessage.Message>
+            </ui:LogMessage>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'Phone #'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="478,246" sap2010:WorkflowViewState.IdRef="NTypeInto_8" InteractionMode="SameAsCard" ScopeIdentifier="80a56d5a-6ce2-4252-b7f1-f6fbd02ff3f7" Version="V5">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable BrowserURL="parabank.parasoft.com/parabank/register.htm" CVScreenId="575327af-8776-49dd-a581-7bf8efd9e246" ContentHash="mch5jEGuZkGVLpCimgqXQw" DesignTimeRectangle="663, 399, 206, 18" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl id='customer.phoneNumber' type='text' rowName='Phone #:' /&gt;" Guid="530fa6d5-f846-4e9a-96f2-e4417d27af7a" InformativeScreenshot="b2f2c6b45bf092787a0b439ddc8f7e05.jpg" Reference="DkszPOmxX0accs3O-Lc4DQ/77uaiXA_oEKeSZlT7AgbpQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='ParaBank | Register for Free Online Account Access' /&gt;" SearchSteps="FuzzySelector" Version="V6" WaitForReadyArgument="None" />
+              </uix:NTypeInto.Target>
+              <uix:NTypeInto.Text>
+                <InArgument x:TypeArguments="x:String">
+                  <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_23">Phone</CSharpValue>
+                </InArgument>
+              </uix:NTypeInto.Text>
+            </uix:NTypeInto>
+            <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="478,175" sap2010:WorkflowViewState.IdRef="LogMessage_13" Level="Info">
+              <ui:LogMessage.Message>
+                <InArgument x:TypeArguments="x:Object">
+                  <CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_48">"Phone number entered"</CSharpValue>
+                </InArgument>
+              </ui:LogMessage.Message>
+            </ui:LogMessage>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'SSN'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="478,246" sap2010:WorkflowViewState.IdRef="NTypeInto_9" InteractionMode="SameAsCard" ScopeIdentifier="80a56d5a-6ce2-4252-b7f1-f6fbd02ff3f7" Version="V5">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable BrowserURL="parabank.parasoft.com/parabank/register.htm" CVScreenId="575327af-8776-49dd-a581-7bf8efd9e246" ContentHash="Zj6S0LU1PE68z8R2QUUo4w" DesignTimeRectangle="663, 449, 206, 18" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl id='customer.ssn' type='text' /&gt;" Guid="db4b586b-b065-41cf-b6b1-74b738bf98f9" InformativeScreenshot="8d7694754453aef8f03431daba50b7a7.jpg" Reference="DkszPOmxX0accs3O-Lc4DQ/IMhahNMB0E6f_XBtmgCnNA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='ParaBank | Register for Free Online Account Access' /&gt;" SearchSteps="FuzzySelector" Version="V6" WaitForReadyArgument="None">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target CVScreenId="575327af-8776-49dd-a581-7bf8efd9e246" CvTextArea="627, 450, 31, 13" CvTextArgument="SSN:" CvType="Text" DesignTimeRectangle="627, 450, 31, 15" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl type='' tag='B' class='' aaname='SSN:' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='SSN:' /&gt;" Guid="1bdcca46-9393-41bc-ab1d-ef63072f7573" SearchSteps="FuzzySelector, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NTypeInto.Target>
+              <uix:NTypeInto.Text>
+                <InArgument x:TypeArguments="x:String">
+                  <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_24">SSN</CSharpValue>
+                </InArgument>
+              </uix:NTypeInto.Text>
+            </uix:NTypeInto>
+            <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="478,175" sap2010:WorkflowViewState.IdRef="LogMessage_14" Level="Info">
+              <ui:LogMessage.Message>
+                <InArgument x:TypeArguments="x:Object">
+                  <CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_49">"SSN number added"</CSharpValue>
+                </InArgument>
+              </ui:LogMessage.Message>
+            </ui:LogMessage>
+            <ui:GetRobotCredential TimeoutMS="{x:Null}" AssetName="UserName" CacheStrategy="None" DisplayName="Get Credential" FolderPath="sahilsharma26032003@gmail.com's workspace" sap:VirtualizedContainerService.HintSize="478,176" sap2010:WorkflowViewState.IdRef="GetRobotCredential_1">
+              <ui:GetRobotCredential.Password>
+                <OutArgument x:TypeArguments="ss:SecureString">
+                  <CSharpReference x:TypeArguments="ss:SecureString" sap2010:WorkflowViewState.IdRef="CSharpReference`1_12">password</CSharpReference>
+                </OutArgument>
+              </ui:GetRobotCredential.Password>
+              <ui:GetRobotCredential.Username>
+                <OutArgument x:TypeArguments="x:String">
+                  <CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_11">username</CSharpReference>
+                </OutArgument>
+              </ui:GetRobotCredential.Username>
+            </ui:GetRobotCredential>
+            <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="478,175" sap2010:WorkflowViewState.IdRef="LogMessage_15" Level="Info">
+              <ui:LogMessage.Message>
+                <InArgument x:TypeArguments="x:Object">
+                  <CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_50">"Getting Credentials from the orchestrator"</CSharpValue>
+                </InArgument>
+              </ui:LogMessage.Message>
+            </ui:LogMessage>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'INPUT customer.username'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="478,246" sap2010:WorkflowViewState.IdRef="NTypeInto_10" InteractionMode="SameAsCard" ScopeIdentifier="80a56d5a-6ce2-4252-b7f1-f6fbd02ff3f7" Version="V5">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable BrowserURL="parabank.parasoft.com/parabank/register.htm" CVScreenId="8513ea9b-435e-40c6-9b39-1c7a6c99c572" ContentHash="anmNyXbVGEGylAQXCjkH5w" DesignTimeRectangle="663, 471, 206, 18" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl id='customer.username' matching:id='fuzzy' fuzzylevel:id='0.0' type='text' rowName='Username:' /&gt;" Guid="2e259b0c-d5a2-4978-8f16-bedd7e83a4fb" InformativeScreenshot="39f6ee5fd6b5d0d59b894fd6083fc855.jpg" Reference="DkszPOmxX0accs3O-Lc4DQ/61AfkDaovkyE7tjEFWJpSw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='ParaBank | Register for Free Online Account Access' /&gt;" SearchSteps="FuzzySelector" Version="V6" WaitForReadyArgument="None" />
+              </uix:NTypeInto.Target>
+              <uix:NTypeInto.Text>
+                <InArgument x:TypeArguments="x:String">
+                  <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_35">username</CSharpValue>
+                </InArgument>
+              </uix:NTypeInto.Text>
+              <uix:NTypeInto.VerifyOptions>
+                <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
+                  <uix:VerifyExecutionTypeIntoOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionTypeIntoOptions.Retry>
+                  <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                </uix:VerifyExecutionTypeIntoOptions>
+              </uix:NTypeInto.VerifyOptions>
+            </uix:NTypeInto>
+            <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="478,175" sap2010:WorkflowViewState.IdRef="LogMessage_16" Level="Info">
+              <ui:LogMessage.Message>
+                <InArgument x:TypeArguments="x:Object">
+                  <CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_51">"Username entered"</CSharpValue>
+                </InArgument>
+              </ui:LogMessage.Message>
+            </ui:LogMessage>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'INPUT customer.password'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="478,246" sap2010:WorkflowViewState.IdRef="NTypeInto_11" InteractionMode="SameAsCard" ScopeIdentifier="80a56d5a-6ce2-4252-b7f1-f6fbd02ff3f7" Version="V5">
+              <uix:NTypeInto.SecureText>
+                <InArgument x:TypeArguments="ss:SecureString">
+                  <CSharpValue x:TypeArguments="ss:SecureString" sap2010:WorkflowViewState.IdRef="CSharpValue`1_36">password</CSharpValue>
+                </InArgument>
+              </uix:NTypeInto.SecureText>
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable BrowserURL="parabank.parasoft.com/parabank/register.htm" CVScreenId="89bfa868-e45b-45c7-8945-3d0410ca62ef" ContentHash="WdVk1DoUgkeDrIuUBXuVRA" DesignTimeRectangle="663, 495, 206, 18" ElementType="InputBoxPassword" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl id='customer.password' type='password' rowName='Password:' /&gt;" Guid="83a51439-d4a7-4c57-a99e-14e0b2f7f766" InformativeScreenshot="eff488c698844c02f55b58b6d04867db.jpg" Reference="DkszPOmxX0accs3O-Lc4DQ/L0LA4l0FQUylEKGwNQgCxg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='ParaBank | Register for Free Online Account Access' /&gt;" SearchSteps="FuzzySelector" Version="V6" WaitForReadyArgument="None" />
+              </uix:NTypeInto.Target>
+              <uix:NTypeInto.VerifyOptions>
+                <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
+                  <uix:VerifyExecutionTypeIntoOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionTypeIntoOptions.Retry>
+                  <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                </uix:VerifyExecutionTypeIntoOptions>
+              </uix:NTypeInto.VerifyOptions>
+            </uix:NTypeInto>
+            <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="478,175" sap2010:WorkflowViewState.IdRef="LogMessage_17" Level="Info">
+              <ui:LogMessage.Message>
+                <InArgument x:TypeArguments="x:Object">
+                  <CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_52">"Password entered"</CSharpValue>
+                </InArgument>
+              </ui:LogMessage.Message>
+            </ui:LogMessage>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'INPUT repeatedPassword'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="478,246" sap2010:WorkflowViewState.IdRef="NTypeInto_12" InteractionMode="DebuggerApi" ScopeIdentifier="80a56d5a-6ce2-4252-b7f1-f6fbd02ff3f7" Version="V5">
+              <uix:NTypeInto.SecureText>
+                <InArgument x:TypeArguments="ss:SecureString">
+                  <CSharpValue x:TypeArguments="ss:SecureString" sap2010:WorkflowViewState.IdRef="CSharpValue`1_37">password</CSharpValue>
+                </InArgument>
+              </uix:NTypeInto.SecureText>
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable BrowserURL="parabank.parasoft.com/parabank/register.htm" CVScreenId="89bfa868-e45b-45c7-8945-3d0410ca62ef" ContentHash="540tbGDnikyXBEjQA11MYw" DesignTimeRectangle="663, 519, 206, 18" ElementType="InputBoxPassword" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl id='repeatedPassword' matching:id='fuzzy' fuzzylevel:id='0.0' type='password' /&gt;" Guid="1e11f622-4564-48ab-b6e0-79d4c4c14cb5" InformativeScreenshot="c2eeb0cc0dec1a6c131eafcdcf8148e8.jpg" Reference="DkszPOmxX0accs3O-Lc4DQ/A9AhBrrJ7UesAr_hWqtsow" ScopeSelectorArgument="&lt;html app='chrome.exe' title='ParaBank | Register for Free Online Account Access' /&gt;" SearchSteps="FuzzySelector" Version="V6" WaitForReadyArgument="None" />
+              </uix:NTypeInto.Target>
+              <uix:NTypeInto.VerifyOptions>
+                <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
+                  <uix:VerifyExecutionTypeIntoOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionTypeIntoOptions.Retry>
+                  <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                </uix:VerifyExecutionTypeIntoOptions>
+              </uix:NTypeInto.VerifyOptions>
+            </uix:NTypeInto>
+            <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="478,175" sap2010:WorkflowViewState.IdRef="LogMessage_18" Level="Info">
+              <ui:LogMessage.Message>
+                <InArgument x:TypeArguments="x:Object">
+                  <CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_53">"Password confirmed"</CSharpValue>
+                </InArgument>
+              </ui:LogMessage.Message>
+            </ui:LogMessage>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Register(1)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="478,194" sap2010:WorkflowViewState.IdRef="NClick_3" InteractionMode="Simulate" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="80a56d5a-6ce2-4252-b7f1-f6fbd02ff3f7" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="parabank.parasoft.com/parabank/register.htm" CVScreenId="6801077d-0a73-41f5-bb60-b1c242946b83" ContentHash="5umm4HkcbE-qwoA4t4nOVA" DesignTimeRectangle="663, 543, 83, 19" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl tag='INPUT' aaname='Register' type='submit' value='Register' /&gt;" Guid="738b8aac-ac8a-455f-ba7f-a90bc5bc5f0c" InformativeScreenshot="27d73004112d6c3a57d96e717bca40a2.jpg" Reference="DkszPOmxX0accs3O-Lc4DQ/ST6An4ufEUmuV6OPODRR6w" ScopeSelectorArgument="&lt;html app='chrome.exe' title='ParaBank | Register for Free Online Account Access' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="None" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="478,175" sap2010:WorkflowViewState.IdRef="LogMessage_19" Level="Info">
+              <ui:LogMessage.Message>
+                <InArgument x:TypeArguments="x:Object">
+                  <CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_54">"Register button clicked"</CSharpValue>
+                </InArgument>
+              </ui:LogMessage.Message>
+            </ui:LogMessage>
+            <uix:NCheckState DisplayName="Check App State 'Welcome PeterGriffin'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="478,797" sap2010:WorkflowViewState.IdRef="NCheckState_2" ScopeIdentifier="80a56d5a-6ce2-4252-b7f1-f6fbd02ff3f7" Version="V5">
+              <uix:NCheckState.IfExists>
+                <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="450,226" sap2010:WorkflowViewState.IdRef="Sequence_5">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,166" sap2010:WorkflowViewState.IdRef="LogMessage_5" Level="Info">
+                    <ui:LogMessage.Message>
+                      <InArgument x:TypeArguments="x:Object">
+                        <CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_38">"Registration successful"</CSharpValue>
+                      </InArgument>
+                    </ui:LogMessage.Message>
+                  </ui:LogMessage>
+                </Sequence>
+              </uix:NCheckState.IfExists>
+              <uix:NCheckState.IfNotExists>
+                <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="450,226" sap2010:WorkflowViewState.IdRef="Sequence_6">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,166" sap2010:WorkflowViewState.IdRef="LogMessage_6" Level="Info">
+                    <ui:LogMessage.Message>
+                      <InArgument x:TypeArguments="x:Object">
+                        <CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_39">"Registration Failed"</CSharpValue>
+                      </InArgument>
+                    </ui:LogMessage.Message>
+                  </ui:LogMessage>
+                </Sequence>
+              </uix:NCheckState.IfNotExists>
+              <uix:NCheckState.Target>
+                <uix:TargetAnchorable BrowserURL="parabank.parasoft.com/parabank/register.htm" CVScreenId="5e6b1b5d-f793-46b1-9cb3-067f6f536cc1" ContentHash="vxVEIKfJgUS6F68hL9w7Ow" DesignTimeRectangle="532, 460, 502, 25" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='H1' aaname='Welcome PeterGriffin' innertext='Welcome PeterGriffin' /&gt;" Guid="00e9338e-2306-47e7-9a83-3045b06b4683" InformativeScreenshot="b0718ed33e4f0538215ad30e28370bc4.jpg" Reference="DkszPOmxX0accs3O-Lc4DQ/LXvUH4czj0WMxV3xuynZwA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='ParaBank | Customer Created' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="None" />
+              </uix:NCheckState.Target>
+            </uix:NCheckState>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Open New Account'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="478,194" sap2010:WorkflowViewState.IdRef="NClick_2" InteractionMode="Simulate" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="80a56d5a-6ce2-4252-b7f1-f6fbd02ff3f7" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="parabank.parasoft.com/parabank/register.htm" CVScreenId="5e6b1b5d-f793-46b1-9cb3-067f6f536cc1" ContentHash="nr29Y1mxW0uObAYeqvGxQQ" DesignTimeRectangle="337, 485, 164, 24" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='Open New Account' innertext='Open New Account' /&gt;" Guid="632c347d-faa5-46a0-af28-a350c445814b" InformativeScreenshot="be16d3e800eaabca8d0c9ee5bf154e2b.jpg" Reference="DkszPOmxX0accs3O-Lc4DQ/zs44A8yMmUO7jkzg0oMwPw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='ParaBank | Customer Created' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="None" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="478,166" sap2010:WorkflowViewState.IdRef="LogMessage_20" Level="Info">
+              <ui:LogMessage.Message>
+                <InArgument x:TypeArguments="x:Object">
+                  <CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_55">"Clicked on Open new account page"</CSharpValue>
+                </InArgument>
+              </ui:LogMessage.Message>
+            </ui:LogMessage>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.CloseMode>
+        <InArgument x:TypeArguments="uix:NAppCloseMode">
+          <CSharpValue x:TypeArguments="uix:NAppCloseMode" sap2010:WorkflowViewState.IdRef="CSharpValue`1_40">UiPath.UIAutomationNext.Enums.NAppCloseMode.Never</CSharpValue>
+        </InArgument>
+      </uix:NApplicationCard.CloseMode>
+      <uix:NApplicationCard.OCREngine>
+        <ActivityFunc x:TypeArguments="sd:Image, scg:IEnumerable(scg:KeyValuePair(sd1:Rectangle, x:String))">
+          <ActivityFunc.Argument>
+            <DelegateInArgument x:TypeArguments="sd:Image" Name="Image" />
+          </ActivityFunc.Argument>
+        </ActivityFunc>
+      </uix:NApplicationCard.OCREngine>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="-8, -8, 1382, 736" BrowserType="Chrome" ContentHash="rkkf2DKppkGexqT4D1Ofvg" IconBase64="iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAGeSURBVDhPpVO7LkRRFF0xCMa7QoFQTulReMSjmUx8AwViMtrVeYxKNH4AHyESK/5gKMQnkBAtOiQSspJ9b64xnUlOZt9z1lp777XPAagCqDKoCqhtUCVQTajWkP4ce49aCYyx5hR84OAT1Beob1A3oBZADaNay6NaM9G4VlAKjLHmlH1gtYScrHdQ90HYBTUBqh3UVQZjTqWRwCOoY1AboBZBjQXZFTQUcM/noC5AXUbGXJTtNQRqDlQvqANQzyFwDaqYmNMMqi3+e0DNg5oC1QfqBNRb7Bnv6tyifUKSxWsyRGZBvYK6i3g9Ygsatxn+jGQFXLJL9+ZAZLUHrshnbqE/sEthbj4r0Bmbzuhvg02ygNcWqDNQg6DGQe1F66nAaJS1mmnHZZtoUcduy6IdoKbT1iOwITbmML5nQL2AOg0jfQ8s1A2qJWN4k8HFGIlH8wRqJyZhgv1IkpjgMXrUHrlHX/JB/UXyYTJWm+qy10AdRYI/F6mRgMnucz9u3wOojwzml0D9Y3JprsCvMIdqrStMXgZ1myGnj+lfz/kHp+WNZsv1D4cAAAAASUVORK5CYII=" InformativeScreenshot="e41163d85a29886dcba6015b2fbd60ba.jpg" Reference="DkszPOmxX0accs3O-Lc4DQ/T7SDmhqfTkKGgDsm0Jl_sg" Selector="&lt;html app='chrome.exe' title='ParaBank | Welcome | Online Banking' /&gt;" Url="https://parabank.parasoft.com/parabank/index.htm?ConnType=JDBC" Version="V2">
+          <uix:TargetApp.Arguments>
+            <InArgument x:TypeArguments="x:String" />
+          </uix:TargetApp.Arguments>
+          <uix:TargetApp.WorkingDirectory>
+            <InArgument x:TypeArguments="x:String" />
+          </uix:TargetApp.WorkingDirectory>
+        </uix:TargetApp>
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
   </Sequence>
 </Activity>

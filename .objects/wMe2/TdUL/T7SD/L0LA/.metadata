@@ -1,0 +1,14 @@
+﻿{
+  "Name": "INPUT customer.password",
+  "Type": "Element",
+  "TaxonomyType": "Password",
+  "Id": "L0LA4l0FQUylEKGwNQgCxg",
+  "Reference": "DkszPOmxX0accs3O-Lc4DQ/L0LA4l0FQUylEKGwNQgCxg",
+  "ParentRef": "DkszPOmxX0accs3O-Lc4DQ/T7SDmhqfTkKGgDsm0Jl_sg",
+  "Created": "2026-02-19T11:12:43.8175112Z",
+  "Updated": "2026-02-19T11:12:43.8175112Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.26.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

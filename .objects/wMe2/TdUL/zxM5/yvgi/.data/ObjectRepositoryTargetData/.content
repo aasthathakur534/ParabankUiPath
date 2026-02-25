@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="p-ym1i-DQk2XnoIxCZxwpw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="parabank.parasoft.com/parabank/register.htm" CVScreenId="575327af-8776-49dd-a581-7bf8efd9e246" CvElementArea="661, 352, 208, 20" CvType="InputBox" DesignTimeRectangle="663, 353, 206, 18" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl id='customer.address.city' type='text' tag='INPUT' class='input' aaname='' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="fcd5b9e2-36d8-42a0-81e4-d59d43cf58a5" ScopeSelectorArgument="&lt;html app='chrome.exe' title='ParaBank | Register for Free Online Account Access' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="2fd53398ed37c63c525c9c3f683ffd29.jpg" xmlns="">0ZoHMuVUTn062NneUW4LbgA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

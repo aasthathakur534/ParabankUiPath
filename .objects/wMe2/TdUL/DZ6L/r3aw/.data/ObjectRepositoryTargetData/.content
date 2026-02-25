@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="GjZiPEpKGkiNOqSxMBgfEA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="parabank.parasoft.com/parabank/openaccount.htm" CVScreenId="be44b15c-c190-452f-b927-1a32adc2f024" CvElementArea="531, 436, 141, 20" CvType="InputBox" DesignTimeRectangle="532, 437, 140, 18" ElementType="DropDown" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='type' matching:id='fuzzy' fuzzylevel:id='0.0' class='input' matching:class='fuzzy' fuzzylevel:class='0.0' parentid='openAccountForm' visibleinnertext='CHECKING&amp;#xA;SAVINGS' /&gt;" Guid="d12e0155-55db-46de-8761-5b4a7b8e5bbd" ScopeSelectorArgument="&lt;html app='chrome.exe' title='ParaBank | Open Account' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="None">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="be44b15c-c190-452f-b927-1a32adc2f024" CvTextArea="530, 409, 287, 16" CvTextArgument="What type of Account would you like to open?" CvType="Text" DesignTimeRectangle="532, 409, 284, 15" FuzzySelectorArgument="&lt;webctrl parentid='openAccountForm' tag='B' type='' class='' aaname='What type of Account would you like to open?' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='What type of Account would you like to open?' /&gt;" Guid="e6a0ff9e-6cea-41d8-9dd5-0480d6c4e541" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="ddc9ab1932d45afdbc6de18246ca46db.jpg" xmlns="">078lsDb0cc0mCV3Fnft9_Yg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

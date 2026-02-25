@@ -1,0 +1,225 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="AccountServicesTest" sap2010:ExpressionActivityEditor.ExpressionActivityEditor="C#" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Drawing;assembly=System.Drawing.Common" xmlns:sd1="clr-namespace:System.Drawing;assembly=System.Drawing.Primitives" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Text</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Platform.SyncObjects</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Models</x:String>
+      <x:String>System.Linq.Expressions</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>System.Xml.Serialization</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.CSharp</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization</AssemblyReference>
+      <AssemblyReference>System.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.ServiceModel.Activities</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>Studio.Generated.TypedDataTable1</AssemblyReference>
+      <AssemblyReference>System.Private.Xml</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="AccountServicesTest" sap:VirtualizedContainerService.HintSize="770,2070" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Chrome ParaBank  Open Account" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="488,2047" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="8261619a-47a8-47d8-b38f-1ce4482eefa7" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="486,1853" sap2010:WorkflowViewState.IdRef="Sequence_2">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NSelectItem DisplayName="Select Item 'What type of Account wo…'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,195" sap2010:WorkflowViewState.IdRef="NSelectItem_3" Item="SAVINGS" ScopeIdentifier="8261619a-47a8-47d8-b38f-1ce4482eefa7" Version="V5">
+              <uix:NSelectItem.Items>
+                <scg:List x:TypeArguments="x:String" Capacity="2">
+                  <x:String>CHECKING</x:String>
+                  <x:String>SAVINGS</x:String>
+                </scg:List>
+              </uix:NSelectItem.Items>
+              <uix:NSelectItem.Target>
+                <uix:TargetAnchorable BrowserURL="parabank.parasoft.com/parabank/openaccount.htm" CVScreenId="31248ae7-38f1-4359-b842-4c8c432c5992" ContentHash="KymmNFup2EekhywWvUcEuQ" CvElementArea="531, 336, 142, 20" CvType="InputBox" DesignTimeRectangle="532, 337, 140, 18" ElementType="DropDown" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='type' tag='SELECT' type='' class='input' aaname='' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="ed3bf018-737b-4a8b-8df4-7251103db599" InformativeScreenshot="11f7f9442af27f4daf4c73ba82dedf4e.jpg" Reference="DkszPOmxX0accs3O-Lc4DQ/swDVknUVgESqdw9ZA4MzFA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='ParaBank | Open Account' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <uix:Target CVScreenId="31248ae7-38f1-4359-b842-4c8c432c5992" CvTextArea="530, 309, 286, 16" CvTextArgument="What type of Account would you like to open?" CvType="Text" DesignTimeRectangle="532, 309, 284, 15" FuzzySelectorArgument="&lt;webctrl parentid='openAccountForm' tag='B' type='' class='' aaname='What type of Account would you like to open?' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='What type of Account would you like to open?' /&gt;" Guid="6b33402b-76e2-45fd-b44b-5daaf4dcb4ca" SearchSteps="FuzzySelector, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NSelectItem.Target>
+            </uix:NSelectItem>
+            <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="452,175" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info">
+              <ui:LogMessage.Message>
+                <InArgument x:TypeArguments="x:Object">
+                  <CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_1">"Savings account selected"</CSharpValue>
+                </InArgument>
+              </ui:LogMessage.Message>
+            </ui:LogMessage>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Open New Account'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,194" sap2010:WorkflowViewState.IdRef="NClick_4" InteractionMode="Simulate" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="8261619a-47a8-47d8-b38f-1ce4482eefa7" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="parabank.parasoft.com/parabank/openaccount.htm" CVScreenId="6dc19be3-7996-4e19-8071-71f9489c38ba" ContentHash="EX_APpA_uUy4nPRJsiJPmQ" DesignTimeRectangle="532, 561, 138, 19" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='Open New Account' type='button' value='Open New Account' /&gt;" Guid="6330c964-827a-4317-a771-5f2e9a2fd47e" InformativeScreenshot="8c118d9461119f56e0017ac35c9d45fc.jpg" Reference="DkszPOmxX0accs3O-Lc4DQ/nhXBtW3fVEK_NumOcodTCg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='ParaBank | Open Account' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="None" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NCheckState DisplayName="Check App State 'Account Opened!'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="452,797" sap2010:WorkflowViewState.IdRef="NCheckState_1" ScopeIdentifier="8261619a-47a8-47d8-b38f-1ce4482eefa7" Version="V5">
+              <uix:NCheckState.IfExists>
+                <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="450,226" sap2010:WorkflowViewState.IdRef="Sequence_3">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,166" sap2010:WorkflowViewState.IdRef="LogMessage_2" Level="Info">
+                    <ui:LogMessage.Message>
+                      <InArgument x:TypeArguments="x:Object">
+                        <CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_2">"Account opened successfully"</CSharpValue>
+                      </InArgument>
+                    </ui:LogMessage.Message>
+                  </ui:LogMessage>
+                </Sequence>
+              </uix:NCheckState.IfExists>
+              <uix:NCheckState.IfNotExists>
+                <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="450,226" sap2010:WorkflowViewState.IdRef="Sequence_4">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,166" sap2010:WorkflowViewState.IdRef="LogMessage_3" Level="Info">
+                    <ui:LogMessage.Message>
+                      <InArgument x:TypeArguments="x:Object">
+                        <CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_3">"Account failed to create"</CSharpValue>
+                      </InArgument>
+                    </ui:LogMessage.Message>
+                  </ui:LogMessage>
+                </Sequence>
+              </uix:NCheckState.IfNotExists>
+              <uix:NCheckState.Target>
+                <uix:TargetAnchorable BrowserURL="parabank.parasoft.com/parabank/openaccount.htm" CVScreenId="2a0a8626-e456-498b-8d11-5f81b612bf21" ContentHash="mdpBPmS37UigAmO24fimnA" DesignTimeRectangle="532, 372, 502, 25" ElementType="Text" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl parentid='openAccountResult' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' class='title' matching:class='fuzzy' fuzzylevel:class='0.0' aaname='Account Opened!' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' innertext='Account Opened!' visibleinnertext='Account Opened!' check:innerText='Account Opened!' /&gt;" Guid="582771ec-d2b9-489e-bafb-adbd181c786d" InformativeScreenshot="0833c5b9a7d7314409e066b68cb74f44.jpg" Reference="DkszPOmxX0accs3O-Lc4DQ/Y2eyINgF2UCiL-TkK_gjwA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='ParaBank | Open Account' /&gt;" SearchSteps="FuzzySelector" Version="V6" WaitForReadyArgument="None" />
+              </uix:NCheckState.Target>
+            </uix:NCheckState>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Accounts Overview'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,266" sap2010:WorkflowViewState.IdRef="NClick_5" InteractionMode="Simulate" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="8261619a-47a8-47d8-b38f-1ce4482eefa7" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="parabank.parasoft.com/parabank/openaccount.htm" CVScreenId="a6cddb51-d5e0-40ca-97d9-f3d78f9214c8" ContentHash="B4IT_nM9kkyOLSyAydWmfw" DesignTimeRectangle="337, 509, 164, 24" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='Accounts Overview' innertext='Accounts Overview' visibleinnertext='Accounts Overview' /&gt;" Guid="3b144002-b54b-4587-af6d-dd6a8e97f093" InformativeScreenshot="afa5346d877b08eb3b4479f8b3682de5.jpg" Reference="DkszPOmxX0accs3O-Lc4DQ/sxyJt7QsI0iZQo2WBWEm2g" ScopeSelectorArgument="&lt;html app='chrome.exe' title='ParaBank | Open Account' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="None" />
+              </uix:NClick.Target>
+              <uix:NClick.VerifyOptions>
+                <uix:VerifyExecutionOptions DisplayName="Verification target" Mode="Appears">
+                  <uix:VerifyExecutionOptions.Target>
+                    <uix:TargetAnchorable BrowserURL="parabank.parasoft.com/parabank/overview.htm" CVScreenId="315d09cb-2289-41ac-af99-affa0c38d550" ContentHash="sFA5zA5c9k6rUtW7qhP3JA" DesignTimeRectangle="532, 460, 502, 25" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='H1' aaname=' &amp;#x9;&amp;#x9;&amp;#x9;Accounts Overview &amp;#x9;&amp;#x9;' class='title' visibleinnertext='Accounts Overview' /&gt;" Guid="4b04835b-adfe-4ffc-91d2-1998d06edb60" InformativeScreenshot="dffe33460263c89a6b24c9c70c837c7e.jpg" Reference="DkszPOmxX0accs3O-Lc4DQ/KA35zk6zS06mMPIByyyYPw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='ParaBank | Accounts Overview' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="None" />
+                  </uix:VerifyExecutionOptions.Target>
+                  <uix:VerifyExecutionOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionOptions.Timeout>
+                </uix:VerifyExecutionOptions>
+              </uix:NClick.VerifyOptions>
+            </uix:NClick>
+            <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="452,166" sap2010:WorkflowViewState.IdRef="LogMessage_4" Level="Info">
+              <ui:LogMessage.Message>
+                <InArgument x:TypeArguments="x:Object">
+                  <CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_4">"Account overview button clicked"</CSharpValue>
+                </InArgument>
+              </ui:LogMessage.Message>
+            </ui:LogMessage>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.OCREngine>
+        <ActivityFunc x:TypeArguments="sd:Image, scg:IEnumerable(scg:KeyValuePair(sd1:Rectangle, x:String))">
+          <ActivityFunc.Argument>
+            <DelegateInArgument x:TypeArguments="sd:Image" Name="Image" />
+          </ActivityFunc.Argument>
+        </ActivityFunc>
+      </uix:NApplicationCard.OCREngine>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="-8, -8, 1382, 736" BrowserType="Chrome" ContentHash="feKFrxpBu0mk1tOomFUczQ" IconBase64="iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAGeSURBVDhPpVO7LkRRFF0xCMa7QoFQTulReMSjmUx8AwViMtrVeYxKNH4AHyESK/5gKMQnkBAtOiQSspJ9b64xnUlOZt9z1lp777XPAagCqDKoCqhtUCVQTajWkP4ce49aCYyx5hR84OAT1Beob1A3oBZADaNay6NaM9G4VlAKjLHmlH1gtYScrHdQ90HYBTUBqh3UVQZjTqWRwCOoY1AboBZBjQXZFTQUcM/noC5AXUbGXJTtNQRqDlQvqANQzyFwDaqYmNMMqi3+e0DNg5oC1QfqBNRb7Bnv6tyifUKSxWsyRGZBvYK6i3g9Ygsatxn+jGQFXLJL9+ZAZLUHrshnbqE/sEthbj4r0Bmbzuhvg02ygNcWqDNQg6DGQe1F66nAaJS1mmnHZZtoUcduy6IdoKbT1iOwITbmML5nQL2AOg0jfQ8s1A2qJWN4k8HFGIlH8wRqJyZhgv1IkpjgMXrUHrlHX/JB/UXyYTJWm+qy10AdRYI/F6mRgMnucz9u3wOojwzml0D9Y3JprsCvMIdqrStMXgZ1myGnj+lfz/kHp+WNZsv1D4cAAAAASUVORK5CYII=" InformativeScreenshot="205c48efd42ad57c4a075ddd9260600d.jpg" Reference="DkszPOmxX0accs3O-Lc4DQ/DZ6L6yeO0E6YDTGp5MSxuw" Selector="&lt;html app='chrome.exe' title='ParaBank | Open Account' /&gt;" Url="https://parabank.parasoft.com/parabank/openaccount.htm" Version="V2">
+          <uix:TargetApp.Arguments>
+            <InArgument x:TypeArguments="x:String" />
+          </uix:TargetApp.Arguments>
+          <uix:TargetApp.WorkingDirectory>
+            <InArgument x:TypeArguments="x:String" />
+          </uix:TargetApp.WorkingDirectory>
+        </uix:TargetApp>
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>

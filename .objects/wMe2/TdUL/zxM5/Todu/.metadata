@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Type Into 'INPUT customer.lastName'",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "ToduPvy_sE-CwdqOjNM2Yg",
+  "Reference": "DkszPOmxX0accs3O-Lc4DQ/ToduPvy_sE-CwdqOjNM2Yg",
+  "ParentRef": "DkszPOmxX0accs3O-Lc4DQ/zxM5oJqYUkKiFX8hNhpEyw",
+  "Created": "2026-02-19T07:47:45.7459317Z",
+  "Updated": "2026-02-19T07:47:45.7459317Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.26.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

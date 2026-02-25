@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="KymmNFup2EekhywWvUcEuQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="parabank.parasoft.com/parabank/openaccount.htm" CVScreenId="31248ae7-38f1-4359-b842-4c8c432c5992" CvElementArea="531, 336, 142, 20" CvType="InputBox" DesignTimeRectangle="532, 337, 140, 18" ElementType="DropDown" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='type' tag='SELECT' type='' class='input' aaname='' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="ed3bf018-737b-4a8b-8df4-7251103db599" ScopeSelectorArgument="&lt;html app='chrome.exe' title='ParaBank | Open Account' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="31248ae7-38f1-4359-b842-4c8c432c5992" CvTextArea="530, 309, 286, 16" CvTextArgument="What type of Account would you like to open?" CvType="Text" DesignTimeRectangle="532, 309, 284, 15" FuzzySelectorArgument="&lt;webctrl parentid='openAccountForm' tag='B' type='' class='' aaname='What type of Account would you like to open?' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='What type of Account would you like to open?' /&gt;" Guid="6b33402b-76e2-45fd-b44b-5daaf4dcb4ca" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="11f7f9442af27f4daf4c73ba82dedf4e.jpg" xmlns="">0vW2AAMvql0eA0cRAj8DCrg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">SelectItem</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

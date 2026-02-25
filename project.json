@@ -4,14 +4,16 @@
   "description": "Test Automation Project",
   "main": "Main.xaml",
   "dependencies": {
+    "UiPath.Excel.Activities": "[3.4.0-preview]",
     "UiPath.System.Activities": "[25.12.0-preview]",
-    "UiPath.Testing.Activities": "[25.10.0]"
+    "UiPath.Testing.Activities": "[25.10.0]",
+    "UiPath.UIAutomation.Activities": "[25.10.26]"
   },
   "webServices": [],
   "entitiesStores": [],
   "schemaVersion": "4.0",
   "studioVersion": "26.0.185.0",
-  "projectVersion": "1.0.0",
+  "projectVersion": "1.0.225198321",
   "runtimeOptions": {
     "autoDispose": false,
     "netFrameworkLazyLoading": false,
@@ -45,6 +47,54 @@
         "testCaseId": "dae60bb4-6b72-43fc-9e77-863d1a262f47",
         "testCaseType": "TestCase",
         "fileName": "TestCase.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "18a0dcb6-dae6-4339-bdb4-c651d155bb7f",
+        "testCaseType": "TestCase",
+        "fileName": "TestCases\\RegisterTest.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "073eb004-f406-4067-9f99-3735b5982c1b",
+        "testCaseType": "TestCase",
+        "fileName": "TestCases\\BillPaymentTest.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "d1fb3a2c-ab8e-4425-ac48-4c6881935aba",
+        "testCaseType": "TestCase",
+        "fileName": "TestCases\\FindTransactionsTest.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "ec1719e5-2892-46ba-8ba8-16e94bcd01f3",
+        "testCaseType": "TestCase",
+        "fileName": "TestCases\\LogoutTest.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "5e5104fb-566b-454e-a9c6-9b5b60e979ff",
+        "testCaseType": "TestCase",
+        "fileName": "TestCases\\RequestLoanTest.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "04fbf67b-d60b-430a-a3e9-bc4c2c41ef8c",
+        "testCaseType": "TestCase",
+        "fileName": "TestCases\\TransferFundsTest.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "4516e738-602e-4205-bd32-debc832ff954",
+        "testCaseType": "TestCase",
+        "fileName": "TestCases\\UpdateContactInfo.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "de9e7f7f-6758-40ef-a448-cffeac4cd344",
+        "testCaseType": "TestCase",
+        "fileName": "TestCases\\OpenNewAccount.xaml"
       }
     ],
     "saveToCloud": false

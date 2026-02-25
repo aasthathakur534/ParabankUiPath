@@ -1,0 +1,39 @@
+{
+  "exportedBy": null,
+  "bundleHash": null,
+  "version": "1.0.0.0",
+  "jitAssemblyCompilerCommands": [
+    {
+      "providerName": "TypedDataTable",
+      "typedDataTableDto": {
+        "id": 1,
+        "idRef": "NExtractDataGeneric`1_1",
+        "hash": "NExtractDataGeneric`1_1|DataTable|ZQ6FKPCGKjoE2SRcoOZk8jNv6IRyfER5blPtDdi3zU",
+        "dataType": "System.Data.DataTable, System.Data.Common",
+        "columns": [
+          {
+            "columnName": "Account",
+            "dataType": "System.String, System.Private.CoreLib"
+          },
+          {
+            "columnName": "Account Url",
+            "dataType": "System.String, System.Private.CoreLib"
+          },
+          {
+            "columnName": "Balance*",
+            "dataType": "System.String, System.Private.CoreLib"
+          },
+          {
+            "columnName": "Available Amount",
+            "dataType": "System.String, System.Private.CoreLib"
+          }
+        ]
+      },
+      "entityAssemblyKey": {
+        "name": "Studio.Generated.TypedDataTable1",
+        "hash": "NExtractDataGeneric`1_1|DataTable|xHjAqOc8l3uC0LsgHX4H338eYr3FQkoOq1I4jy5T81Q",
+        "assemblyName": "Studio.Generated.TypedDataTable1"
+      }
+    }
+  ]
+}

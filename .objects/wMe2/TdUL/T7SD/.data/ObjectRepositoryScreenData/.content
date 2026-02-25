@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryScreenData ContentHash="rkkf2DKppkGexqT4D1Ofvg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryScreenData.Data>
+    <TargetApp x:Key="TargetApp" Area="-8, -8, 1382, 736" BrowserType="Chrome" IconBase64="iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAGeSURBVDhPpVO7LkRRFF0xCMa7QoFQTulReMSjmUx8AwViMtrVeYxKNH4AHyESK/5gKMQnkBAtOiQSspJ9b64xnUlOZt9z1lp777XPAagCqDKoCqhtUCVQTajWkP4ce49aCYyx5hR84OAT1Beob1A3oBZADaNay6NaM9G4VlAKjLHmlH1gtYScrHdQ90HYBTUBqh3UVQZjTqWRwCOoY1AboBZBjQXZFTQUcM/noC5AXUbGXJTtNQRqDlQvqANQzyFwDaqYmNMMqi3+e0DNg5oC1QfqBNRb7Bnv6tyifUKSxWsyRGZBvYK6i3g9Ygsatxn+jGQFXLJL9+ZAZLUHrshnbqE/sEthbj4r0Bmbzuhvg02ygNcWqDNQg6DGQe1F66nAaJS1mmnHZZtoUcduy6IdoKbT1iOwITbmML5nQL2AOg0jfQ8s1A2qJWN4k8HFGIlH8wRqJyZhgv1IkpjgMXrUHrlHX/JB/UXyYTJWm+qy10AdRYI/F6mRgMnucz9u3wOojwzml0D9Y3JprsCvMIdqrStMXgZ1myGnj+lfz/kHp+WNZsv1D4cAAAAASUVORK5CYII=" Selector="&lt;html app='chrome.exe' title='ParaBank | Welcome | Online Banking' /&gt;" Url="https://parabank.parasoft.com/parabank/index.htm?ConnType=JDBC" Version="V2">
+      <imageRef attrName="InformativeScreenshot" originalValue="e41163d85a29886dcba6015b2fbd60ba.jpg" xmlns="">0ObrPhqBWVUGtEHB_jPwFhw</imageRef>
+    </TargetApp>
+  </ObjectRepositoryScreenData.Data>
+</ObjectRepositoryScreenData>

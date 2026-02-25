@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="mdpBPmS37UigAmO24fimnA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="parabank.parasoft.com/parabank/openaccount.htm" CVScreenId="2a0a8626-e456-498b-8d11-5f81b612bf21" DesignTimeRectangle="532, 372, 502, 25" ElementType="Text" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl parentid='openAccountResult' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' class='title' matching:class='fuzzy' fuzzylevel:class='0.0' aaname='Account Opened!' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' innertext='Account Opened!' visibleinnertext='Account Opened!' check:innerText='Account Opened!' /&gt;" Guid="582771ec-d2b9-489e-bafb-adbd181c786d" ScopeSelectorArgument="&lt;html app='chrome.exe' title='ParaBank | Open Account' /&gt;" SearchSteps="FuzzySelector" Version="V6" WaitForReadyArgument="None">
+      <imageRef attrName="InformativeScreenshot" originalValue="0833c5b9a7d7314409e066b68cb74f44.jpg" xmlns="">0CXj9y1lzl02VE-KtfkJ2kw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="ZQ6LHh9300G00H1XV9VsrQ" Reference="DkszPOmxX0accs3O-Lc4DQ/p0jiDNTgJEa2FwUB7QmoUg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="parabank.parasoft.com/parabank/openaccount.htm" CVScreenId="be44b15c-c190-452f-b927-1a32adc2f024" CvElementArea="531, 436, 141, 20" CvType="InputBox" DesignTimeRectangle="532, 437, 140, 18" ElementType="DropDown" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='type' matching:id='fuzzy' fuzzylevel:id='0.0' tag='SELECT' class='input' matching:class='fuzzy' fuzzylevel:class='0.0' visibleinnertext='CHECKING&amp;#xA;SAVINGS' /&gt;" Guid="934149a0-844b-4c64-b4fb-baf158f2bd36" ScopeSelectorArgument="&lt;html app='chrome.exe' title='ParaBank | Open Account' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="None">
+      <imageRef attrName="InformativeScreenshot" originalValue="a22cacc6d428b8269abcc8fdcfd6c985.jpg" xmlns="">0dYhVh5AY7UulSt5lUzRNDQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">SelectItem</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
